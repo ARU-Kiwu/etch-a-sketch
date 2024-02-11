@@ -1,0 +1,30 @@
+:root {
+    --width: 0;
+}
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c1a27;
+}
+
+.container div {
+    aspect-ratio: 1 / 1;
+    height:10px;
+    background-color: #1c1a27;
+    /* border:0.1px solid rgba(255, 255, 255, 0.181) */
+}
+
+.container {
+    width:var(--width);
+    display: flex;
+    flex-wrap: wrap;
+    border:0.5px solid rgba(149, 149, 149, 0.16);
+}
